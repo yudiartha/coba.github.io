@@ -58,19 +58,19 @@
                 <form name="submit-to-google-sheet">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" />
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nama Peserta</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" name="nama" placeholder="Nama Peserta" />
+                        <input type="text" class="form-control" id="exampleFormControlInput1" name="nama" placeholder="Nama Peserta" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nama ibu kandung</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" name="ibu kandung" placeholder="Nama Ibu Kandung" />
+                        <input type="text" class="form-control" id="exampleFormControlInput1" name="ibu kandung" placeholder="Nama Ibu Kandung" required />
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Pekerjaan</label>
-                        <select class="form-select" name="pekerjaan" aria-label="Default select example">
+                        <select class="form-select" name="pekerjaan" aria-label="Default select example" required>
                 <option selected>Pilih Pekerjakaan</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                        <textarea class="form-control" name="pesan" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="pesan" id="exampleFormControlTextarea1" rows="3" required></textarea>
                     </div>
                     <button class="btn btn-primary btn-kirim" type="submit">Kirim</button>
 
